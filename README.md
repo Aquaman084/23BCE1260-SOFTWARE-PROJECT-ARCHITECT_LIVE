@@ -46,3 +46,5 @@ We follow the GitHub Flow branching strategy:
   - `feature/canvas-drag-drop`
   - `feature/docker-setup`
 - Feature branches are merged into `main` using Pull Requests after review.
+
+> Canvas drag-and-drop feature under development.
