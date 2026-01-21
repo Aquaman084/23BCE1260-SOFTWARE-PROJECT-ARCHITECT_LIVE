@@ -49,7 +49,7 @@ We follow the GitHub Flow branching strategy:
 
 > Canvas drag-and-drop feature under development.
 >
-> ## Local Development Tools
+## Local Development Tools
 
 The following tools were used to develop and run ArchitectLive locally:
 
