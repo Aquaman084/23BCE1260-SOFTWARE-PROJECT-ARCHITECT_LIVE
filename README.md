@@ -49,15 +49,46 @@ We follow the GitHub Flow branching strategy:
 
 > Canvas drag-and-drop feature under development.
 >
+## Quick Start – Local Development
+
+Follow the steps below to run ArchitectLive locally using Docker.
+
+### Prerequisites
+- Git
+- Docker Desktop (installed and running)
+
+### Steps
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Aquaman084/23BCE1260-SOFTWARE-PROJECT-ARCHITECT_LIVE.git
+cd 23BCE1260-SOFTWARE-PROJECT-ARCHITECT_LIVE
+```
+Build and start the application using Docker Compose:
+
+docker-compose up --build
+Access the application in your browser:
+
+Frontend: http://localhost:3000
+
+Backend API: http://localhost:5000
+
+To stop the containers:
+
+docker-compose down
+
+---
+
+## 🛠 Local Development Tools
+
 ## Local Development Tools
 
-The following tools were used to develop and run ArchitectLive locally:
+The following tools are used for local development:
 
-- **Docker Desktop** – For containerizing and running the frontend and backend services
-- **Docker Compose** – To orchestrate multi-container application setup
-- **Git & GitHub** – For version control, branching strategy, and collaboration
+- **Docker Desktop** – For containerizing and running the application
+- **Docker Compose** – To orchestrate frontend and backend services
+- **Git & GitHub** – Version control and collaboration
 - **Node.js** – Backend runtime environment
-- **Express.js** – Lightweight web framework for backend services
-- **VS Code** – Code editor for development
-- **Windows OS** – Local development environment
+- **HTML/CSS/JavaScript** – Frontend development
+- **VS Code / Any Code Editor** – Code editing and debugging
 
