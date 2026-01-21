@@ -48,3 +48,16 @@ We follow the GitHub Flow branching strategy:
 - Feature branches are merged into `main` using Pull Requests after review.
 
 > Canvas drag-and-drop feature under development.
+>
+## Local Development Tools
+
+The following tools were used to develop and run ArchitectLive locally:
+
+- **Docker Desktop** – For containerizing and running the frontend and backend services
+- **Docker Compose** – To orchestrate multi-container application setup
+- **Git & GitHub** – For version control, branching strategy, and collaboration
+- **Node.js** – Backend runtime environment
+- **Express.js** – Lightweight web framework for backend services
+- **VS Code** – Code editor for development
+- **Windows OS** – Local development environment
+
