@@ -34,3 +34,15 @@ To empower developers to build complex cloud infrastructure as easily as drawing
 * **Constraint:** The "Live Test" feature requires Docker-in-Docker privileges on the host server.
 * **Assumption:** Users have Docker Desktop installed locally to run the downloaded artifacts.
 * **Constraint:** Initial support is limited to the MERN stack and Python/PostgreSQL services.
+
+## Branching Strategy
+
+We follow the GitHub Flow branching strategy:
+
+- The `main` branch contains production-ready code.
+- All new features are developed in feature branches.
+- Feature branches follow the format: `feature/feature-name`
+  Examples:
+  - `feature/canvas-drag-drop`
+  - `feature/docker-setup`
+- Feature branches are merged into `main` using Pull Requests after review.
