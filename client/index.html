@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ArchitectLive – Visual Infrastructure Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 25px;
+      background: rgba(0,0,0,0.4);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: #00e6e6;
+    }
+
+    header .student {
+      text-align: right;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.6rem;
+      margin-bottom: 15px;
+      color: #00ffff;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      background: #00ffff;
+      color: #003333;
+      border: none;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #00cccc;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .feature-card {
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255,255,255,0.1);
+    }
+
+    .feature-card h3 {
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+      background: rgba(0,0,0,0.4);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ArchitectLive</h1>
+  <div class="student">
+    <div><strong>KARTHIK S</strong></div>
+    <div>Roll No: 23BCE1260</div>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>Design. Generate. Deploy.</h2>
+  <p>
+    ArchitectLive is a next-generation visual platform that allows developers to design distributed systems
+    and instantly convert them into production-ready Docker-based infrastructure.
+  </p>
+  <button>Start Designing</button>
+</section>
+
+<section class="features">
+  <div class="feature-card">
+    <h3>Visual Architecture</h3>
+    <p>Drag and drop microservices to visually design your system without writing boilerplate code.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>One-Click Code Generation</h3>
+    <p>Automatically generate Dockerfiles, docker-compose and environment configs.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>Live Testing</h3>
+    <p>Test your architecture instantly inside an isolated Docker sandbox.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>GitHub Integration</h3>
+    <p>Push your generated code directly into a GitHub repository for collaboration.</p>
+  </div>
+</section>
+
+<footer>
+  ArchitectLive © 2026 | Developed by Karthik S (23BCE1260)
+</footer>
+
+</body>
+</html>
