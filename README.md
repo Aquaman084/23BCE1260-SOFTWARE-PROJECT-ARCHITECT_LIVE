@@ -125,7 +125,7 @@ Below are the UI wireframes and prototype screens created during the design phas
 ![Login](./design/login.png)
 
 - Dashboard  
-![Dashboard](./design/dashboard.png)
+![Dashboard](./design/dashboard.png) 
 
 - Canvas Editor  
 ![Canvas](./design/canvas.png)
