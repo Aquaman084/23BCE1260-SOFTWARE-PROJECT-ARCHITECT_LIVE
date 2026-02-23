@@ -103,7 +103,7 @@ This folder contains all design resources for the **ArchitectLive** project, inc
 ### 🟠 Old Architecture Diagram
 This represents the initial system design before refactoring and modular improvements.
 
-![Old Architecture](./design/old_arch.png)
+![Old Architecture](./design/)
 
 ---
 
