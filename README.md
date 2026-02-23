@@ -107,7 +107,7 @@ This represents the initial system design before refactoring and modular improve
 
 ---
 
-### 🟢 New Architecture Diagram (Final)
+### 🟢 New Architecture Diagram 
 This is the finalized layered architecture used in the ArchitectLive platform.
 
 ![New Architecture](./design/new_arch.png)
@@ -167,5 +167,10 @@ This will load the full editable architecture diagram.
 - PNG files are provided for quick preview.
 - The `.drawio` file is the editable source version of the architecture.
 - The new architecture diagram reflects the final layered client-server design used in Digital Assignment 2.
+
+---
+
+## Design Summary
+ArchitectLive utilizes a modular, layered client-server architecture that strictly decouples the interactive React frontend from the Node.js code-generation backend to maintain low coupling. By treating the canvas output as an intermediate JSON graph, our backend compiler engine can perform strict topological validation before generating the final Infrastructure-as-Code artifacts. This approach ensures high cohesion and allows the system to easily scale or support new programming languages in the future without disrupting the core user interface.
 
 
