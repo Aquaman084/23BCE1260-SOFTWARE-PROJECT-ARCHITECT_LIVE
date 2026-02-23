@@ -131,7 +131,7 @@ Below are the UI wireframes and prototype screens created during the design phas
 ![Canvas](./design/canvas.png)
 
 - Node Configuration  
-![Node](./design/node.png)
+![Node](./design/node_conf.png)
 
 - Export Screen  
 ![Export](./design/export.png)
