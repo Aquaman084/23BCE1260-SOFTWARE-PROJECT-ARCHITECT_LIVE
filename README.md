@@ -92,3 +92,80 @@ The following tools are used for local development:
 - **HTML/CSS/JavaScript** – Frontend development
 - **VS Code / Any Code Editor** – Code editing and debugging
 
+# ArchitectLive – Design Assets
+
+This folder contains all design resources for the **ArchitectLive** project, including architecture diagrams, UI wireframes, and editable source files used during development.
+
+---
+
+## 🧩 Architecture Diagrams
+
+### 🟠 Old Architecture Diagram
+This represents the initial system design before refactoring and modular improvements.
+
+![Old Architecture](./design/old_arch.png)
+
+---
+
+### 🟢 New Architecture Diagram (Final)
+This is the finalized layered architecture used in the ArchitectLive platform.
+
+![New Architecture](./design/new_arch.png)
+
+---
+
+## 🎨 UI Design Screens
+
+Below are the UI wireframes and prototype screens created during the design phase:
+
+- Landing Page  
+![Landing Page](./design/landing_page.png)
+
+- Login Screen  
+![Login](./design/login.png)
+
+- Dashboard  
+![Dashboard](./design/dashboard.png)
+
+- Canvas Editor  
+![Canvas](./design/canvas.png)
+
+- Node Configuration  
+![Node](./design/node.png)
+
+- Export Screen  
+![Export](./design/export.png)
+
+
+---
+
+## ✏️ Editable Draw.io Diagram
+
+You can open and edit the live architecture diagram using diagrams.net:
+
+👉 https://drive.google.com/file/d/1yJJZlR4U_FbKR1u0aIEpTR9Yz3WEMV0Z/view?usp=sharing
+
+---
+
+## 📂 Draw.io Source File (XML)
+
+The editable source file is also available inside this folder:
+
+
+### How to open the `.drawio` file:
+1. Download `ArchitectLive.drawio` from the design folder
+2. Go to https://app.diagrams.net
+3. Click **File → Open From → Device**
+4. Select the downloaded file
+
+This will load the full editable architecture diagram.
+
+---
+
+## 📌 Notes
+
+- PNG files are provided for quick preview.
+- The `.drawio` file is the editable source version of the architecture.
+- The new architecture diagram reflects the final layered client-server design used in Digital Assignment 2.
+
+
